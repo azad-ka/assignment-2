@@ -13,9 +13,18 @@
 }
 
 /* header style */
+/* nav style */
 
+.nav-logo{
+    width: 62px;
+    height: 62px;
+    margin-top: 20px;
+}
 .navbar{
     justify-content: space-evenly;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0 auto;
     
 }
 .nav-item{
@@ -24,6 +33,37 @@
 }
 .nav-link{
     text-decoration: none;
+}
+.nav-title{
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 11px;
+}
+#link-color-1{
+    color: rgb(254, 163, 1);
+}
+#link-color-2{
+    color: rgb(1, 172, 253);
+}
+#link-color-3{
+    color: rgb(5, 212, 223);
+}
+#link-color-4{
+    color: rgb(93, 88, 239);
+}
+.nav-btn-link{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-btn{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    align-items: center;
+    padding: 10px 60px;
+    border: none;
 }
 
 /* main style */
