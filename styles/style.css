@@ -11,8 +11,19 @@
 .display-flex{
     display: flex;
 }
+.color-1{
+    color: rgb(100, 200, 255);
+}
+.color-2{
+    color: rgb(240, 170, 0);
+}
+.color-3{
+    color: rgb(135, 0, 255);
+}
+
 
 /* header style */
+
 /* nav style */
 
 .nav-logo{
@@ -21,11 +32,10 @@
     margin-top: 20px;
 }
 .navbar{
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     max-width: 1160px;
     margin: 0 auto;
-    
 }
 .nav-item{
     list-style: none;
@@ -66,9 +76,105 @@
     border: none;
 }
 
+/* banner style */
+.banner{
+    justify-content: center;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.banner-details{
+    margin: 0 40px;
+    max-width: 640px;
+    border: 140px 0;
+}
+.banner-image{
+    max-width: 460px;
+}
+.text-1{
+    color: orange;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.text-2{
+    color: skyblue;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.text-3{
+    color: black;
+    font-weight: bold;
+    font-size: 3.5rem;
+    
+}
+.description{
+    color: black;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+button{
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px 47px;
+    border: none;
+}
+.btn-name{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
 /* main style */
 
+/* section-1 style */
 
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.section-title{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 2.9rem;
+}
+.curriculum-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.curriculum-description{
+    color: rgb(128, 128, 128);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.curriculum-title{
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.card-1{
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    
+}
+.card-2{
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-3{
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
 
 /* footer style */
 
