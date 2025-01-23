@@ -178,4 +178,49 @@ button{
 
 /* footer style */
 
-
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 150px;
+    background: rgb(1, 172, 253);
+    padding: 130px 150px;
+    margin-top: 150px;
+    justify-content: center;
+    
+}
+.footer-note-1{
+    display: flex;
+}
+.footer-logo{
+    width: 82px;
+    height: 81px;
+    margin-top: 50px;
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.footer-description{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 399.02px;
+    height: 100px;
+}
+.footer-about{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.footer-link{
+    list-style: none;
+}
+.link-name{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
