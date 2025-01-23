@@ -21,7 +21,6 @@
     color: rgb(135, 0, 255);
 }
 
-
 /* header style */
 
 /* nav style */
@@ -127,8 +126,12 @@ button{
 
 /* main style */
 
-/* section-1 style */
-
+.curriculum{
+    background-image: url(../assets/bg.png);
+}
+.section-title{
+    text-align: center;
+}
 .card-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -178,8 +181,74 @@ button{
 
 /* our-stories style */
 
-
-
+.section-1{
+    background-image: url(../assets/bg.png);
+}
+.our-stories-title{
+    color: rgb(0, 0, 0);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.our-stories-title{
+    text-align: center;
+}
+.our-stories{
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-img{
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(217, 217, 217);
+}
+.stories-secondary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.img-story{
+    border-radius: 16px 16px 0px 0px;
+    background: rgb(255, 255, 255);
+    width: 291px;
+    height: 182px;
+}
+.title-story{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.main-story{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.story-description{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+}
+.story-time{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 15px 20px;
+}
+.stories-main{
+    width: 540px;
+    height: 550px;
+    margin-right: 20px;
+}
+.time-scaling{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.stories-btn{
+    margin: 60px 550px 0 550px;
+}
 /* footer style */
 
 .footer{
