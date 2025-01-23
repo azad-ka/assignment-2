@@ -297,3 +297,21 @@ button{
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+/* Responsive style */
+
+@media screen and (max-width: 576px) {
+    .navbar, .banner, .our-stories{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-container, .stories-secondary, .footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .stories-main{
+        display: none;
+    }
+    .stories-btn{
+        display: none;
+    }
+}
